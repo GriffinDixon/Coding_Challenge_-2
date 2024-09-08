@@ -1,0 +1,4 @@
+// Use a ternary operator to determine tip
+let bill = 175
+let tip = bill >= 75 ? bill * 0.2 : bill * 0.15;
+console.log(`Tip: $${tip}`);
